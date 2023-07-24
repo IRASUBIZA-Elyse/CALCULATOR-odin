@@ -3,8 +3,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* width: 100vw; */
+    width: 100vw;
     height: 100vh;
+}
+h1{
+    text-align: center;
 }
 .btn {
     border: none;
@@ -47,7 +50,26 @@ body {
     background-color: rgb(160, 59, 59);
 }
 
-.screen{
-    width: auto;
+.first-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#screen{
+    width: 180px;
     border: 1px solid rgb(60, 48, 82);
+    background-color: rgb(212, 212, 185);
+    height: 50px;
+    border-radius: 2px;
+    margin: 2px;
+}
+
+.currentNumber{
+    font-size: 25px;
+    text-align: end;
+}
+.previousNumber{
+    font-size: 20px;
+    text-align: end;
 }
