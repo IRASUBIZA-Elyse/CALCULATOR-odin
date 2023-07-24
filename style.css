@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(89, 89, 126);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 100vw; */
+    height: 100vh;
+}
+.btn {
+    border: none;
+    background-color: rgb(217, 229, 235);
+    border-radius: 15px;
+    font-size: 40px;
+    margin: 4px;
+    width: 50px;
+    height: 50px;
+}
+
+.btn:hover {
+    background-color: rgb(99, 181, 219);
+  }
+.btn:active {
+    background-color: rgb(42, 126, 165);
+}
+.number {
+    border: 2px solid greenyellow;
+}
+  
+.operator {
+    border: 2px solid rgb(64, 64, 126);
+    text-align: center;
+}
+
+.decimal{
+    border: 2px solid gold;
+}
+
+.equal{
+    border: 2px solid pink;
+}
+#clear-btn{
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+#clear-btn:hover{
+    background-color: rgb(160, 59, 59);
+}
+
+.screen{
+    width: auto;
+    border: 1px solid rgb(60, 48, 82);
+}
